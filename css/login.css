@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: 0px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+section{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.inputs{
+    width: 30%;
+    margin: auto;
+}
+.inputs input , button{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.inputs input{
+        border: 1px solid rgb(170, 170, 170);
+}
+.inputs input:focus{
+    border: 1px solid #0e72ed;
+}
+.inputs button{
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+}
+ul{
+    display: flex;
+}
+ul li a{
+    width: 25%;
+    color: #0e72ed;
+}
+ul li a i{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+ul li a i:hover{
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.head{
+margin-bottom: 30px;
+}
+.head h1{
+    color: #0e72ed;
+    font-size: 40px;
+}
+.head p{
+    font-weight: bold;
+    font-size: 13px;
+}
+.or-sign p{
+    margin: 10px;
+}
+.list{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.border{
+    border-top: 1px solid  rgb(170, 170, 170) ;
+}
